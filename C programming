@@ -1,4 +1,5 @@
 //1.multiplication tables 
+
 #include<stdio.h>
 int main()
 {
@@ -35,7 +36,6 @@ multiplication tables for5
 
 
 // To find out Biggest Number out of Three Number
-
 
 #include<stdio.h>
 int main()
