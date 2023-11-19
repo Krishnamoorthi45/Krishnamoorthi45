@@ -3,26 +3,24 @@
 int main()
 {
 int t,e,m,c,p,cs;
-    printf("enter the tamil mark:");
-    scanf("%d",&t);
-    printf("enter the English mark:");
-    scanf("%d",&e);
-    printf("enter the maths mark:");
-    scanf("%d",&m);
-    printf("enter the chemistry mark:");
-    scanf("%d",&c);
-    printf("enter the physics Mark:");
-    scanf("%d",&p);
-    printf("enter the computer science:");
-    scanf("%d",&cs);
-    if (35<=t&&35<=e&&35<=m&&35<=p&&35<=cs)
+  printf("enter the tamil mark:");
+  scanf("%d",&t);
+  printf("enter the English mark:");
+  scanf("%d",&e);
+  printf("enter the maths mark:");
+  scanf("%d",&m);
+  printf("enter thechemistrymark:");
+  scanf("%d",&c);
+  printf("enter the physics Mark:");
+  scanf("%d",&p);
+  printf("enterthecomputerscience:");
+  scanf("%d",&cs); if(35<=t&&35<=e&&35<=m&&35<=p&&35<=cs)
     {
-    printf("🎉🎉congratulations you
-will pass🎉🎉\n");
+  printf("congratulations you will pass🎉\n");
     }
     else
     {
-    printf("😮‍💨😮‍💨sorry you will fail😮‍💨😮‍💨.\n");
+    printf("sorry you will fail😓\n");
     }
     return 0;
 }
@@ -39,13 +37,15 @@ enter the chemistry mark:97
 enter the physics Mark:98
 enter the computer science:97
 
+
+1.sample output
+
+congratulations you will pass🎉
+
 ______________________________________
 
-2.sample output
 
-🎉🎉congratulations you will pass🎉🎉
-
-sample input:
+2.sample input:
 
 ter the tamil mark:50
 enter the English mark:40
@@ -56,6 +56,6 @@ enter the computer science:90
 
 2.sample output:
 
-😥😢sorry you will fail😢😥.
+sorry you will fail😥.
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
