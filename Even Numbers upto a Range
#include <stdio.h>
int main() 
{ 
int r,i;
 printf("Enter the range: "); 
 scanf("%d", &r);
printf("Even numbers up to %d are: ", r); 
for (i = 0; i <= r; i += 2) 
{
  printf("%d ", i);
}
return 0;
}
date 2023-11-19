@@ -1,0 +1,14 @@
+//Even Numbers upto a Range
+#include <stdio.h>
+int main() 
+{ 
+int r,i;
+ printf("Enter the range: "); 
+ scanf("%d", &r);
+printf("Even numbers up to %d are: ", r); 
+for (i = 0; i <= r; i += 2) 
+{
+  printf("%d ", i);
+}
+return 0;
+}
