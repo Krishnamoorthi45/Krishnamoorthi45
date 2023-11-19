@@ -1,0 +1,61 @@
+//Result of a Student
+#include<stdio.h>
+int main()
+{
+int t,e,m,c,p,cs;
+    printf("enter the tamil mark:");
+    scanf("%d",&t);
+    printf("enter the English mark:");
+    scanf("%d",&e);
+    printf("enter the maths mark:");
+    scanf("%d",&m);
+    printf("enter the chemistry mark:");
+    scanf("%d",&c);
+    printf("enter the physics Mark:");
+    scanf("%d",&p);
+    printf("enter the computer science:");
+    scanf("%d",&cs);
+    if (35<=t&&35<=e&&35<=m&&35<=p&&35<=cs)
+    {
+    printf("🎉🎉congratulations you
+will pass🎉🎉\n");
+    }
+    else
+    {
+    printf("😮‍💨😮‍💨sorry you will fail😮‍💨😮‍💨.\n");
+    }
+    return 0;
+}
+
+
+**************************************
+
+1.sample input:
+
+enter the tamil mark:90
+enter the English mark:99
+enter the maths mark:98
+enter the chemistry mark:97
+enter the physics Mark:98
+enter the computer science:97
+
+______________________________________
+
+2.sample output
+
+🎉🎉congratulations you will pass🎉🎉
+
+sample input:
+
+ter the tamil mark:50
+enter the English mark:40
+enter the maths mark:60
+enter the chemistry mark:30
+enter the physics Mark:26
+enter the computer science:90
+
+2.sample output:
+
+😥😢sorry you will fail😢😥.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
