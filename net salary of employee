@@ -1,0 +1,24 @@
+//Net Salary of an Employee
+int main()
+{
+float g,n,d;
+    printf("enter a gross salary:");
+    scanf("%f",&g);
+    printf("enter a deduction:");
+    scanf("%f",&d);
+    n=g-d;
+    printf("net salary is:%f",n);
+ return 0;
+}
+
+
+**************************************
+
+
+sample input:
+enter a gross salary:10000
+enter a deduction:5000
+
+sample output:
+
+net salary is:5000
