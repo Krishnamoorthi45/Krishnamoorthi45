@@ -25,10 +25,13 @@ void callByReference(int *y) {
     *y = *y * 2;
     printf("Inside call by reference: *y = %d\n", *y);
 }
+______________________________________
 
 input:
 
 2 8
+
+//////////////////////////////////////
 
 output:
 
@@ -39,3 +42,5 @@ After call by value: num1 = 12
 Before call by reference: num2 = 8
 Inside call by reference: *y = 16
 After call by reference: num2 = 16
+
+**************************************
