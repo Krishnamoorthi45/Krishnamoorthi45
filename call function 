@@ -1,1 +1,41 @@
-call function 
+//call by value and call by reference
+
+
+#include <stdio.h>
+void callByValue(int x);
+void callByReference(int *y);
+
+int main() {
+    int num1,num2;
+    scanf("%d",&num1);
+    printf("Before call by value: num1 = %d\n", num1);
+    callByValue(num1);
+    printf("After call by value: num1 = %d\n\n", num1);
+    scanf("%d",&num2);
+    printf("Before call by reference: num2 = %d\n", num2);
+    callByReference(&num2);
+    printf("After call by reference: num2 = %d\n", num2);
+    return 0;
+}
+void callByValue(int x) {
+    x = x * 2;
+    printf("Inside call by value: x = %d\n", x);
+}
+void callByReference(int *y) {
+    *y = *y * 2;
+    printf("Inside call by reference: *y = %d\n", *y);
+}
+
+input:
+
+2 8
+
+output:
+
+Before call by value: num1 = 12
+Inside call by value: x = 24
+After call by value: num1 = 12
+
+Before call by reference: num2 = 8
+Inside call by reference: *y = 16
+After call by reference: num2 = 16
